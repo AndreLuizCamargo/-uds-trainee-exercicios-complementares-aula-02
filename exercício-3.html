@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt" dir="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercicio 3</title>
+  </head>
+  <body>
+    <p> Escreva uma função que receba um número, via prompt, e alerte se o número é par ou impar.</p>
+    <script>
+      var verNum = 0;
+      function VerificaNumero(verNum){
+        var numero;
+
+         do {
+          numero = prompt ("Insira um numero");
+        }while (numero == 0)
+
+        numero = numero%2;
+
+        if (numero ==0) {
+          alert(" O numero é par!!");
+
+        }else{
+          alert ("O numero é impar");
+        }
+        return numero;
+      }
+      VerificaNumero(verNum);
+
+    </script>
+
+  </body>
+</html>
